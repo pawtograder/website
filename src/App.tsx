@@ -101,15 +101,17 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        {/* <section className="section demo">
+        <section className="section demo" id="demo">
           <h2>See it in action</h2>
           <div className="demo-container">
-            <div className="demo-placeholder">
-              <p>Interactive Demo Coming Soon</p>
+            <div className="demo-content">
+              <p>Want to see Pawtograder in action? We'd love to show you around!</p>
+              <div className="demo-cta">
+                <a href="mailto:hello@pawtograder.com?subject=Pawtograder%20Demo%20Account%20Request" className="demo-cta-button">Request a demo account</a>
+              </div>
             </div>
           </div>
-        </section> */}
-
+        </section>
         <section className="section open-source" id="open-source">
           <h2>Open Source & Community</h2>
           <div className="community-content">

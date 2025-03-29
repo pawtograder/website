@@ -3,8 +3,9 @@ import { NavLink, Feature, Audience, Stat, FooterSection } from './types';
 export const navLinks: NavLink[] = [
   { href: '#features', label: 'Features' },
   { href: '#who-its-for', label: 'Who it\'s for' },
-  { href: 'https://docs.pawtograder.com', label: 'Docs' },
+  { href: '#demo', label: 'Demo' },
   { href: '#open-source', label: 'Open Source' },
+  { href: 'https://docs.pawtograder.com', label: 'Docs' },
 ];
 
 export const features: Feature[] = [

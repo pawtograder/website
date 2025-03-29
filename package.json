@@ -2,6 +2,7 @@
   "name": "pawtograder-site",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://pawtograder.github.io/site",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -364,16 +364,44 @@ html {
 }
 
 .demo-container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.demo-placeholder {
-  background: #1a365d;
-  border: 2px dashed #60a5fa;
+.demo-content {
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  padding: 4rem;
-  color: #fff;
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.demo-content p {
+  color: #e2e8f0;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.demo-cta {
+  margin-top: 2rem;
+}
+
+.demo-cta-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  background-color: #1b7e36;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.demo-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #16632d;
 }
 
 /* Open Source Section */
